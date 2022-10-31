@@ -1,0 +1,332 @@
+/* Styling for all website */
+
+:root {
+  --lightBackground: #f5f5f5;
+}
+
+body {
+  text-align: center;
+}
+
+body h1 {
+  font-size: 46px;
+  /* font-family: "Lucida Bright", Georgia, serif; */
+}
+
+p {
+  font-family: 'Segoe UI Symbol',sans-serif;
+}
+
+.title-heading {
+  font-size: xx-large;
+  font-variant: small-caps;
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+}
+
+.sub-heading {
+  font-size: larger;
+  margin-top: 1%;
+}
+
+.top-margin-addition {
+    margin-top: 10%;
+}
+
+
+/* Top section and Nav */
+.top-section {
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul {
+    display: contents;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.light-background {
+  background-color: var(--lightBackground);
+}
+
+
+/* Welcome section */
+.welcome-section {
+  padding: 2%;
+  padding-top: 10%;
+}
+
+h2 {
+  font-size: 56px;
+  margin: 5px;
+  /* font-family: serif; */
+  font-family: "Lucida Bright", Georgia, serif;
+  font-variant: small-caps;
+}
+
+.welcome-section > p {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* Picture Gallery */
+.gallery-section img {
+  width: 100vw;
+
+}
+
+
+/* Bio Section */
+@media (max-width:1200px) {
+  .bio-image {
+    object-fit:cover;
+    border-radius:50%;
+    width: 40vw;
+    height: 46vw;
+    max-width: 400px;
+    object-position: 0% 20%;
+    /* margin-top: 5% */
+  }
+}
+
+@media (min-width:1200px) {
+  .bio-image {
+    object-fit:cover;
+    border-radius:50%;
+    width: 400px;
+    height: 460px;
+    max-width: 400px;
+    object-position: 0% 20%;
+  }
+}
+
+.bio-section {
+  padding: 10%;
+  /* align-content; */
+  font-size: medium;
+  font-family: cursive;
+  line-height: 1.6;
+}
+
+.dark-background {
+  background-color: #353A42;
+  color: white;
+}
+
+
+/* Experience Section/Table */
+.experience-section > table, .education-section > table {
+  width: 100%;
+  font-family: 'Segoe UI Symbol',sans-serif;
+  text-align: initial;
+}
+
+#experience-table tr, td {
+  vertical-align: baseline;
+  padding: 4%;
+}
+
+@media (max-width:500px) {
+  #experience-table td {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+.education-section > table ul {
+  margin: 0px;
+  margin-top: 2%;
+  transform: translateX(-5%);
+  /* list-style: circle; */
+}
+
+@media (max-width:500px) {
+  #education-table td {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width:500px) {
+  #education-table li {
+    list-style-position: inside;
+  }
+}
+
+
+.alternative-color-table {
+  border-collapse: collapse;
+}
+
+
+
+/* #experience-table tr:nth-child(even) {
+  background-color: var(--lightBackground)
+} */
+
+.alternative-color-table tr:nth-child(even) {
+  background-color: var(--lightBackground);
+  /* display: block; */
+}
+
+.centre-column {
+  font-variant: small-caps;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width:500px) {
+  .left-column {
+    width: 30vw;
+  }
+
+  .right-column {
+    width: 80vw;
+  }
+}
+
+
+@media (min-width:500px) {
+  #xbox-movement {
+    position: relative;
+    transform: translate3d(-10%, -9%, 0);
+  }
+}
+
+.education-section .right-column {
+  padding-left: 5%;
+}
+
+
+
+/* Skill set section */
+.skillset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+}
+
+.skillset-grid p {
+  padding: 4%;
+}
+
+@media (max-width:500px) {
+  .skillset-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skillset-section img {
+  width: 80%;
+}
+
+@media (max-width:500px) {
+  .skillset-grid img {
+    width: 60%;
+  }
+}
+
+@media (min-width:500px) {
+  #move-slightly-up {
+    transform: translateY(-50%);
+  }
+}
+
+
+/* @media (max-width:500px) {
+  #  {
+    display: block;
+  }
+} */
+
+
+/* Quote section */
+.quote-section {
+  padding: 8vh;
+  padding-top: 0;
+  font-size: larger;
+  /* font-variant: small-caps; */
+}
+
+#ford-quote-symbol {
+  font-size: 10em;
+  font-family: emoji;
+  margin: 0;
+  padding-left: 0;
+  position: relative;
+  transform: translateY(5vh);
+}
+
+/* INTERESTS PAGE */
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+  justify-items: center;
+  /* padding-bottom: 10%; */
+}
+
+@media (max-width:500px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.interests-copyright {
+  transform: translateY(150%);
+  margin: 6%;
+}
+
+.interests-grid  img {
+  width: 70%;
+  height: 90%;
+}
+
+@media (max-width:500px) {
+.interests-grid  img {
+  width: 40%;
+  height: 90%;
+  }
+}
+
+
+.interests-grid  p {
+  padding-left: 6%;
+  padding-right: 6%;
+  line-height: 1.6;
+  margin-bottom: 20%;
+}
+
+#xbox-paragraph {
+  margin-bottom: 10%;
+}
