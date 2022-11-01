@@ -104,7 +104,7 @@ h2 {
 
 
 /* Bio Section */
-@media (max-width:1200px) {
+@media screen and (max-width:1200px) {
   .bio-image {
     object-fit:cover;
     border-radius:50%;
@@ -116,7 +116,7 @@ h2 {
   }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
   .bio-image {
     object-fit:cover;
     border-radius:50%;
@@ -169,14 +169,14 @@ h2 {
   /* list-style: circle; */
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
   #education-table td {
     display: block;
     text-align: center;
   }
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
   #education-table li {
     list-style-position: inside;
   }
@@ -204,7 +204,7 @@ h2 {
   text-transform: uppercase;
 }
 
-@media (min-width:500px) {
+@media screen and (min-width:500px) {
   .left-column {
     width: 30vw;
   }
@@ -215,7 +215,7 @@ h2 {
 }
 
 
-@media (min-width:500px) {
+@media screen and (min-width:500px) {
   #xbox-movement {
     position: relative;
     transform: translate3d(-10%, -9%, 0);
@@ -239,7 +239,7 @@ h2 {
   padding: 4%;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
   .skillset-grid {
     grid-template-columns: 1fr;
   }
@@ -249,13 +249,13 @@ h2 {
   width: 80%;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
   .skillset-grid img {
     width: 60%;
   }
 }
 
-@media (min-width:500px) {
+@media screen and (min-width:500px) {
   #move-slightly-up {
     transform: translateY(-50%);
   }
@@ -313,7 +313,7 @@ h2 {
   height: 90%;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:500px) {
 .interests-grid  img {
   width: 40%;
   height: 90%;
