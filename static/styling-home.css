@@ -193,7 +193,7 @@ h2 {
   background-color: var(--lightBackground)
 } */
 
-.alternative-color-table tr:nth-child(even) {
+.alternative-color-table tr:nth-child(odd) {
   background-color: var(--lightBackground);
   /* display: block; */
 }
