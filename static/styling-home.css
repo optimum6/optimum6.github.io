@@ -135,6 +135,13 @@ h2 {
   line-height: 1.6;
 }
 
+/* Added a justify text for mobiles only */
+@media screen and (max-width:500px) {
+.bio-paragraph {
+  text-align: justify;
+}
+}
+
 .dark-background {
   background-color: #353A42;
   color: white;
