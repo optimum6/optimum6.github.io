@@ -316,6 +316,7 @@ h2 {
 .interests-copyright {
   transform: translateY(150%);
   margin: 6%;
+  padding-bottom: 5px;
 }
 
 .interests-grid  img {
@@ -341,3 +342,5 @@ h2 {
 #xbox-paragraph {
   margin-bottom: 10%;
 }
+
+
