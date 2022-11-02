@@ -179,14 +179,14 @@ h2 {
   /* list-style: circle; */
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
   #education-table td {
     display: block;
     text-align: center;
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
   #education-table li {
     list-style-position: inside;
   }
@@ -214,7 +214,7 @@ h2 {
   text-transform: uppercase;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:700px) {
   .left-column {
     width: 30vw;
   }
@@ -225,7 +225,7 @@ h2 {
 }
 
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:700px) {
   #xbox-movement {
     position: relative;
     transform: translate3d(-10%, -9%, 0);
@@ -249,7 +249,7 @@ h2 {
   padding: 4%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
   .skillset-grid {
     grid-template-columns: 1fr;
   }
@@ -259,13 +259,13 @@ h2 {
   width: 80%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
   .skillset-grid img {
     width: 60%;
   }
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:700px) {
   #move-slightly-up {
     transform: translateY(-50%);
   }
@@ -306,7 +306,7 @@ h2 {
   /* padding-bottom: 10%; */
 }
 
-@media (max-width:500px) {
+@media (max-width:700px) {
   .interests-grid {
     grid-template-columns: 1fr;
   }
@@ -324,7 +324,7 @@ h2 {
   height: 90%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 .interests-grid  img {
   width: 40%;
   height: 90%;

@@ -1,0 +1,25 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    /* grid-auto-rows: 300px; */
+}
+
+.photo-item {
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: flex-end;
+    /* padding: 1rem; */
+    color: #fff;
+}
+
+.photo-item:hover {
+    /* Make the item grow on hover */
+    transform: scale(1.2);
+}
+
+.photo-item img {
+    width: 100%;
+}
